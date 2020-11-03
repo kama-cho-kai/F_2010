@@ -2,6 +2,8 @@ import random
 
 from flask import Flask, jsonify
 
+from text_to_speech import text_to_speech
+
 MESSAGE = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
 
 app = Flask(__name__)
@@ -16,8 +18,10 @@ def get_seed():
 @app.route("/", methods=["POST"])
 def text_reaction():
     seed = get_seed()
-    message = MESSAGE[seed]
-    return jsonify({"message": message}), 200
+    # message = MESSAGE[seed]
+    message = "こんにちは"
+    speech = text_to_speech(message)
+    return jsonify({"speech": speech}), 200
 
 
 if __name__ == "__main__":
