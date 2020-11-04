@@ -1,0 +1,27 @@
+﻿<Properties StartupConfiguration="{C30E7D04-5A15-4BF7-402C-1032F8366464}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/InputFieldManager.cs">
+    <Files>
+      <File FileName="Assets/Scripts/InputFieldManager.cs" Line="32" Column="6" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="f_2010" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Scripts" expanded="True">
+                <Node name="InputFieldManager.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="97ba665a-06af-4be1-8009-a967b8158b97" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
