@@ -1,10 +1,11 @@
-from datetime import date
+from datetime import datetime, timezone, timedelta, date
 import requests
 
 
 projects_url = "https://api.todoist.com/rest/v1/projects"
 tasks_url = "https://api.todoist.com/rest/v1/tasks"
-today_date = str(date.today())
+dt = datetime.now(timezone(timedelta(hours=9)))
+today_date = str(date(dt.year, dt.month, dt.day))
 
 
 def get_today_tasks(token):
