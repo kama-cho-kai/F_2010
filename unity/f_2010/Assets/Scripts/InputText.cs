@@ -7,4 +7,6 @@ using UnityEngine;
 public class InputText {
 
     public string text;
+    public string name;
+    public string token;
 }

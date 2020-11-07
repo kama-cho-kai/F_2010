@@ -9,10 +9,11 @@ using UnityEditor;
 
 public class SaveScript : MonoBehaviour　{
 
-    public InputField inputField;
+    public static InputField inputField;
     public Text text;
     public static string str;
-    string url = "https://silent-scanner-294501.an.r.appspot.com/";
+    static string url = "https://silent-scanner-294501.an.r.appspot.com/get_message";
+    public static string m;
 
     void Start()　{
 
@@ -24,19 +25,36 @@ public class SaveScript : MonoBehaviour　{
 
         str = inputField.textComponent.text;
         Debug.Log(str);
-
+        /*
+        string namae = PlayerPrefs.GetString("NAME", "");
+        string token = PlayerPrefs.GetString("TOKEN", "");
+        */
+        string namae = "たくと";
+        string token = "ad4ebea43ff4e2e94e94ac28ce3d57c07c8bd668";
         //StartCoroutine(Post());
-        RestClient.Post<Message>(url, new InputText { text = str }).Then(Message => {
-            EditorUtility.DisplayDialog("JSON", JsonUtility.ToJson(Message, true), "Ok");
+        RestClient.Post<Message>(url, new InputText { text = str, name = namae, token = token }).Then(message => {
+            //string response = JsonUtility.ToJson(message, true);
+            //EditorUtility.DisplayDialog("JSON", message.message, "Ok");
+            Debug.Log(message.message);
+            m = message.message;
+            Debug.Log(m);
+            text.GetComponent<Text>().text = m;
+            //Fukidashi.fukidashi(m);
         });
-
+        Debug.Log(m);
+        //m = "hello";
         inputField.text = "";
+    }
+
+    public static string getMessage() {
+
+        return m;
     }
 
     public void DisplayText() {
 
         text.GetComponent<Text>().text = str;
-    } 
+    }
 
     private void Post() {
         /*

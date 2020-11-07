@@ -6,5 +6,5 @@ using UnityEngine;
 
 public class Message {
 
-	public int message;
+	public string message;
 }

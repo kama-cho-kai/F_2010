@@ -1,9 +1,12 @@
 ﻿<Properties StartupConfiguration="{C30E7D04-5A15-4BF7-402C-1032F8366464}|">
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/SaveScript.cs">
     <Files>
-      <File FileName="Assets/Scripts/Message.cs" Line="10" Column="2" />
-      <File FileName="Assets/Scripts/SaveScript.cs" Line="31" Column="12" />
-      <File FileName="Assets/Scripts/InputText.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Message.cs" Line="9" Column="24" />
+      <File FileName="Assets/Scripts/SaveScript.cs" Line="35" Column="115" />
+      <File FileName="Assets/Scripts/InputText.cs" />
+      <File FileName="Assets/Scripts/WAV.cs" />
+      <File FileName="Assets/Scripts/SceneChange.cs" />
+      <File FileName="Assets/Scripts/Fukidashi.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -21,7 +24,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="8cdd8e9c-3735-4138-a16d-9b6380688df2" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="759bd0ca-7a98-42ef-a896-203c4f7de06b" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
