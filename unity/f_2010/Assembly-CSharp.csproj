@@ -90,6 +90,7 @@
     <Compile Include="Assets\Scripts\Fukidashi.cs" />
     <Compile Include="Assets\Scripts\InputText.cs" />
     <Compile Include="Assets\Scripts\Message.cs" />
+    <Compile Include="Assets\Scripts\QuickStart.cs" />
     <Compile Include="Assets\Scripts\SaveScript.cs" />
     <Compile Include="Assets\Scripts\SceneChange.cs" />
     <Compile Include="Assets\Scripts\WAV.cs" />
@@ -296,6 +297,51 @@
     </Reference>
     <Reference Include="UnityEngine.XRModule">
       <HintPath>/Applications/Unity/Hub/Editor/2019.2.8f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.XRModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Api.Gax.Grpc">
+      <HintPath>/Users/mamiko_shimada/Documents/F_2010/unity/f_2010/Assets/Plugins/Google.Api.Gax.Grpc.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Cloud.TextToSpeech.V1">
+      <HintPath>/Users/mamiko_shimada/Documents/F_2010/unity/f_2010/Assets/Plugins/Google.Cloud.TextToSpeech.V1.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Api.Gax">
+      <HintPath>/Users/mamiko_shimada/Documents/F_2010/unity/f_2010/Assets/Plugins/Google.Api.Gax.dll</HintPath>
+    </Reference>
+    <Reference Include="Grpc.Auth">
+      <HintPath>/Users/mamiko_shimada/Documents/F_2010/unity/f_2010/Assets/Plugins/Grpc.Auth.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>/Users/mamiko_shimada/Documents/F_2010/unity/f_2010/Assets/Plugins/Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Grpc.Core">
+      <HintPath>/Users/mamiko_shimada/Documents/F_2010/unity/f_2010/Assets/Plugins/Grpc.Core.1.22.0/lib/net45/Grpc.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Grpc.Core.Api">
+      <HintPath>/Users/mamiko_shimada/Documents/F_2010/unity/f_2010/Assets/Plugins/Grpc.Core.Api.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Apis">
+      <HintPath>/Users/mamiko_shimada/Documents/F_2010/unity/f_2010/Assets/Plugins/Google.Apis.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Apis.Auth.PlatformServices">
+      <HintPath>/Users/mamiko_shimada/Documents/F_2010/unity/f_2010/Assets/Plugins/Google.Apis.Auth.PlatformServices.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Apis.Auth">
+      <HintPath>/Users/mamiko_shimada/Documents/F_2010/unity/f_2010/Assets/Plugins/Google.Apis.Auth.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Apis.Core">
+      <HintPath>/Users/mamiko_shimada/Documents/F_2010/unity/f_2010/Assets/Plugins/Google.Apis.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Protobuf">
+      <HintPath>/Users/mamiko_shimada/Documents/F_2010/unity/f_2010/Assets/Plugins/Google.Protobuf.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Api.CommonProtos">
+      <HintPath>/Users/mamiko_shimada/Documents/F_2010/unity/f_2010/Assets/Plugins/Google.Api.CommonProtos.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Interactive.Async">
+      <HintPath>/Users/mamiko_shimada/Documents/F_2010/unity/f_2010/Assets/Plugins/System.Interactive.Async.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Apis.PlatformServices">
+      <HintPath>/Users/mamiko_shimada/Documents/F_2010/unity/f_2010/Assets/Plugins/Google.Apis.PlatformServices.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>/Applications/Unity/Hub/Editor/2019.2.8f1/Unity.app/Contents/NetStandard/ref/2.0.0/netstandard.dll</HintPath>

@@ -30,18 +30,19 @@ public class SaveScript : MonoBehaviour　{
         string token = PlayerPrefs.GetString("TOKEN", "");
         */
         string namae = "たくと";
-        string token = "ad4ebea43ff4e2e94e94ac28ce3d57c07c8bd668";
+        string token = "d3402f501cbeb69161f208d7bb11f190c1e154ca";
         //StartCoroutine(Post());
         RestClient.Post<Message>(url, new InputText { text = str, name = namae, token = token }).Then(message => {
             //string response = JsonUtility.ToJson(message, true);
             //EditorUtility.DisplayDialog("JSON", message.message, "Ok");
-            Debug.Log(message.message);
+            //Debug.Log(message.message);
             m = message.message;
             Debug.Log(m);
             text.GetComponent<Text>().text = m;
+            QuickStart.CreateRequest(m);
             //Fukidashi.fukidashi(m);
         });
-        Debug.Log(m);
+        //Debug.Log(m);
         //m = "hello";
         inputField.text = "";
     }
