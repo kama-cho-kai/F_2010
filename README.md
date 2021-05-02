@@ -55,7 +55,7 @@
 * TodoistAPIを用いてポジティブなメッセージのときにリマインド
 * TodoistAPIのOAuthで認証
 
-[![IMAGE ALT TEXT HERE](https://github.com/jphacks/F_2010/blob/Readme/img/f_2010_architecture.jpg)]
+![IMAGE ALT TEXT HERE](https://github.com/jphacks/F_2010/blob/Readme/img/f_2010_architecture.jpg)
 
 ## 参加メンバー
 - 金城拓登(沖縄高専)：サーバーサイド、プレゼン担当
