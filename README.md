@@ -1,6 +1,6 @@
 # かまちょっかい
 
-[![IMAGE ALT TEXT HERE](https://github.com/kama-cho-kai/F_2010/blob/master/img/f_2010_architecture.jpg)](https://youtu.be/2L-Ip6ozGP8)
+[![IMAGE ALT TEXT HERE](https://github.com/kama-cho-kai/F_2010/blob/master/img/Firefox%20f%202010%20JPHAKCS2020%20-%20YouTube%202021-05-02%20at%2010.42.26.png)](https://youtu.be/2L-Ip6ozGP8)
 
 
 ## 愚痴xお節介xTech
