@@ -18,7 +18,7 @@
 18-22才で最も自殺率が高く、私たちの世代がボリュームゾーン．だから私たちの手で解決したい．
 ### 製品説明
 愚痴を聞いてくれます。セリフは全てユーザーに共感してくれるものなのでどんなストレスを抱えている方でも対応できます。ToDoリストを用いてお節介を焼いてくれます。
-![IMAGE ALT TEXT HERE](https://github.com/kama-cho-kai/F_2010/blob/master/img/%E3%81%8B%E3%81%BE%E3%81%A1%E3%82%87%E3%81%A3%E3%81%8B%E3%81%84_%E3%83%92%E3%82%9A%E3%83%83%E3%83%81_%E6%9C%AC%E7%95%AA%E7%94%A8/Slide7.png)
+![IMAGE ALT TEXT HERE](https://github.com/kama-cho-kai/F_2010/blob/master/img/%E3%81%8B%E3%81%BE%E3%81%A1%E3%82%87%E3%81%A3%E3%81%8B%E3%81%84_%E3%83%92%E3%82%9A%E3%83%83%E3%83%81_%E6%9C%AC%E7%95%AA%E7%94%A8/Slide7_neo.jpeg)
 
 ### 特長
 #### 1.　自分を気にかけてくれる
